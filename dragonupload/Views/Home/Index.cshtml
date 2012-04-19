@@ -3,4 +3,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+@section Scripts {
+    <script type="text/javascript" src="~/Scripts/knockout-2.0.0.js"></script>
+    <script type="text/javascript" src="~/Scripts/Home/index.js"></script>
+    <meta name="viewport" content="width=device-width" />
+}
+
+<div id="dropbox">
+    <span>drag files here to upload them</span>
+    <span id="msg"></span>
+</div>
