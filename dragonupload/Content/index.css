@@ -1,0 +1,18 @@
+﻿body {
+}
+
+#dropbox
+{
+    width: 400px;
+    height: 400px;
+    border:  3px solid #0094ff;
+    border-radius: 15px;
+    float:  left;
+    text-align: center;
+    background: #FFF;
+}
+
+#dropbox.dragging
+{
+        background: #A0A0A0;
+}
